@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+	
+	
+	<hibernate-mapping>
+	<class name="com.example.model.User" table="userrecord">
+	<id name="vid"></id>
+	<property name="password"></property>
+	<property name="name"></property>
+	
+	</class>
+	
+	<class name="com.example.model.Party" table="party">
+	<id name="id"></id>
+	<property name="name"></property>
+	<property name="voteCount"></property>
+	
+	</class>
+	
+	
+	</hibernate-mapping>
